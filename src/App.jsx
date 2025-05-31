@@ -26,7 +26,7 @@ function App() {
     <>
       <div className="w-[100vw] font-geologica h-[100vh] bg-gray-900   flex-wrap">
         <div>
-          <h1 className="text-[50px] text-center font-bold  text-yellow-400">Curerncy Converter pakistani</h1>
+          <h1 className="text-[50px] text-center font-bold  text-yellow-400">Curerncy</h1>
         </div>
 
 
