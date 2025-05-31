@@ -30,7 +30,10 @@ function MyAPP() {
 
   return (
     <>
-      <div className="container h-[100vh] w-[100vw] font-geologica font-bold items-center bg-slate-800  justify-center flex">
+   
+
+      <div className="container h-[100vh] w-[100vw] font-geologica font-bold items-center bg-slate-800  justify-center flex-col flex">
+      <h1 className="text-blue-50 text-2xl pb-12">Currency Converter</h1>
         <div className="p-[50px] rounded-2xl   bg-slate-900  backdrop-blur-3xl shadow-2xl">
           <h1 className="text-center font-bold text-[50px] text-white">
             {from.toUpperCase()} To {to.toUpperCase()}

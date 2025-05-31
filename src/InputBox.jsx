@@ -22,7 +22,7 @@ function Inputbox({
       />
         </div>
         <div  className="p-4 text-[18px] font-bold">
-      <label htmlFor="" className="mr-4 ">From</label>
+      <label htmlFor="" className="mr-4 ">Froms</label>
       <select name="from" id="from"  
       value={fromValue}
       onChange={onCurrencyChange}
@@ -50,7 +50,7 @@ function Inputbox2({
 
 
 <div className="p-4 text-[18px] font-bold ">
-    <label htmlFor="to"  className="mr-8 " >To:</label>
+    <label htmlFor="to"  className="mr-8 " >Tos:</label>
       <select name="to" id="to"   
       value={ToValue}
       onChange={onCurrencyChange}
